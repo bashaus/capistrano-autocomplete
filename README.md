@@ -1,34 +1,32 @@
-h1. capistrano-autocomplete
+# capistrano-autocomplete
 
-h2. Installation
+## Installation
 
-h3. bash-completion package
+### Step 1. bash-completion package
 
-h4. Homebrew
+Install bash-completion via the package manager for your operating system.
 
+    # Homebrew
     brew install bash-completion
 
-h4. Macports
-
+    # Macports
     sudo port install bash-completion
 
-h4. Yum
-
+    # Yum
     yum install bash-completion
 
-h4. Apt Get
-
+    # Apt
     apt-get install bash-completion
 
-h3. Clone repo
+### Step 2. Clone repo
 
     git clone https://github.com/bashaus/capistrano-autocomplete.git
     cd capistrano-autocomplete
 
-h3. Link completion
+### Step 3. Link the script
 
     ln -s cap /usr/local/etc/bash_completion.d/cap
 
-h3. Relaunch
+### Step 4. Load terminal
 
-    Relaunch bash/terminal to see changes
+Relaunch bash/terminal to see changes
